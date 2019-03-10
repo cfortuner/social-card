@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Building a Social Card Using React
+
+![alt text](https://daveceddia.com/images/social-card.png)
+
+This is a simple project to build a social card component like the one featured in the photo above!
+
+# Create React App Guide
+
 ## Available Scripts
 
 In the project directory, you can run:
