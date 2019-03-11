@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
@@ -25,11 +27,11 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@storybook/react": "^5.0.1",
+    "@babel/core": "^7.3.4",
     "@storybook/addon-actions": "^5.0.1",
     "@storybook/addon-links": "^5.0.1",
     "@storybook/addons": "^5.0.1",
-    "@babel/core": "^7.3.4",
+    "@storybook/react": "^5.0.1",
     "babel-loader": "^8.0.5"
   }
 }

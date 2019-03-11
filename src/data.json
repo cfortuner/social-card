@@ -1,0 +1,26 @@
+{
+  "profile": {
+    "displayName": "Colin Fortuner",
+    "handle": "nyloc",
+    "displayImage": "<LINK TO AN IMAGE>"
+  },
+  "card": {
+    "title": "A really good card.",
+    "date": "2012-04-23T18:25:43.511Z",
+    "message": "Want to see a good card built with React? Look no further!",
+    "link": "<LINK TO MY REPO>"
+  },
+  "comments": [
+    {
+      "profile": {
+        "displayName": "Colin Fortuner",
+        "handle": "nyloc",
+        "displayImage": "<LINK TO AN IMAGE>"
+      },
+      "message": "Your card is really good!",
+      "date": "2012-05-23T18:25:43.511Z"
+    }
+  ],
+  "reshares": 1,
+  "loves": 1
+}

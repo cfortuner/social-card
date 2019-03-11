@@ -6,6 +6,32 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a simple project to build a social card component like the one featured in the photo above!
 
+## Component Design
+
+### Functional Requirements
+
+A social card is a component that should contain content and actions about a single subject. It should display the creator's account information, a title of the content, the content which can include text or media such as images or videos, and it should support comments, reshares, loves and sharing actions.
+
+Thinking too hard about abstractions is not necessary for this component, as the social card is a specific card type. Start by implementing it naively before thinking about helpful abstractions that could be used for other card types. ([Examples of card types](https://material-ui.com/demos/cards/))
+
+### Child components
+
+Ui mock ups for the child components needed for this Social Card component can be found in ./mockups. Below are the various components used in this project.
+
+* SocialCard - The root level component being constructed. Structures and provides support for utilizing following components. Additionally adds a profile-icon image and open/expand card functionality.
+  * CardHeader - Displays Profile Name, Profile Handle, Date, Title
+  * CardContent - Displays Image (or Video) and a Text description (Title, Message, Link).
+  * Reaction - Generic Interactive button that has a image, optional number count and provide additional functionality.
+
+### [Data](./src/data.json)
+
+See the link above for the mocked data used in this project.
+
+### Styling
+
+[MaterialUI](https://material-ui.com/)
+
+
 # Create React App Guide
 
 ## Available Scripts
