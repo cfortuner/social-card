@@ -21,7 +21,7 @@ Ui mock ups for the child components needed for this Social Card component can b
 * SocialCard - The root level component being constructed. Structures and provides support for utilizing following components. Additionally adds a profile-icon image and open/expand card functionality.
   * CardHeader - Displays Profile Name, Profile Handle, Date, Title
   * CardContent - Displays Image (or Video) and a Text description (Title, Message, Link).
-  * Reaction - Generic Interactive button that has a image, optional number count and provide additional functionality.
+  * Reaction (Feature) - Generic Interactive button that has a image, optional number count and provide additional functionality.
 
 ### [Data](./src/data.json)
 
