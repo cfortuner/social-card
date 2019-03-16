@@ -2,12 +2,12 @@ import React from 'react';
 
 class CardHeader extends React.Component {
   render() {
-    const { profileName, profileHandle, date, title } = {...this.props}
+    const { profile, card} = {...this.props}
     return (
       <div>
-        <b>colin</b> {" "}<i>{"@" + profileHandle + " - " + date}</i>
+        <b>{profile.displayName}</b> {" "}<i>{"@" + profile.handle + " - " + card.date}</i>
         <div className="title">
-          {title}
+          {card.title}
         </div>
       </div>
 

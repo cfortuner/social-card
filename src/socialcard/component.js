@@ -14,7 +14,7 @@ class SocialCard extends React.Component {
     return (
       hasData
         ? <>
-            <CardHeader className='social-card-header' profile={data.profile} title={data.card.title}/>
+            <CardHeader className='social-card-header' profile={data.profile} card={data.card}/>
             <CardContent className='social-card-content' media={data}/>
             {hasReactions && 
               <div className='social-card-reactions'>
