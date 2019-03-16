@@ -21,6 +21,15 @@
       "date": "2012-05-23T18:25:43.511Z"
     }
   ],
-  "reshares": 1,
-  "loves": 1
+  "reactions": [
+    {
+      "type": "reshares",
+      "value": 1
+    },
+    {
+      "type": "loves",
+      "value": 1
+    }
+  ]
 }
+
