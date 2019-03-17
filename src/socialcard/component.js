@@ -2,6 +2,7 @@ import React from 'react'
 import CardContent from './components/cardcontent/component'
 import CardHeader from './components/cardheader/component'
 import Reaction from '../features/reaction/component'
+import './styles.scss'
 import _ from 'lodash'
 
 class SocialCard extends React.Component {
@@ -14,9 +15,9 @@ class SocialCard extends React.Component {
     if (!hasData) throw new Error('Social Card data missing from props.')
 
     return (
-      <>
-        <CardHeader className='social-card-header' profile={data.profile} date={data.card.date} title={data.card.title}/>
-        <CardContent className='social-card-content' card={data.card}/>
+      <div className='social-card'>
+        <CardHeader profile={data.profile} date={data.card.date} title={data.card.title}/>
+        <CardContent card={data.card} />
         {hasReactions &&
           <div className='social-card-reactions'>
             {_.map(data.reactions, (reaction) =>
@@ -26,7 +27,7 @@ class SocialCard extends React.Component {
             )}
           </div>
         }
-      </>
+      </div>
     )
   }
 }
