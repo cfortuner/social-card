@@ -6,6 +6,7 @@ import { linkTo } from '@storybook/addon-links';
 
 import { Button, Welcome } from '@storybook/react/demo';
 import SocialCard from '../socialcard/component.js';
+import DATA from '../data.json';
 
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
@@ -20,4 +21,4 @@ storiesOf('Button', module)
     </Button>
   ));
 
-storiesOf('SocialCard', module).add('basic', () => <SocialCard/>);
+storiesOf('SocialCard', module).add('basic', () => <SocialCard data={DATA}/>);
