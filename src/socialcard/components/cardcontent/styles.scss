@@ -1,0 +1,15 @@
+.social-card-content {
+  img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    display:block;
+  }
+
+  .social-card-content-body {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+  }
+}
