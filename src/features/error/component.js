@@ -7,9 +7,15 @@ class PageError extends React.Component {
       <div className='page-error'>
         <div className='page-error-message'>
           <h2>Well, this is embarrassing.</h2>
-          <i><font color="red">{this.props.errorMessage}</font></i>
+          <div>
+            <i><font color='red'>
+              {this.props.errorMessage}
+              <br/>
+              {this.props.stackTrace}
+            </font></i>
+          </div>
         </div>
-        <p><iframe src="https://giphy.com/embed/gnJgBlPgHtcnS" width="411" height="480" frameBorder="0" allowFullScreen></iframe></p>
+        <p><iframe src='https://giphy.com/embed/gnJgBlPgHtcnS' width='411' height='480' frameBorder='0' allowFullScreen></iframe></p>
       </div>
     )
   }

@@ -11,7 +11,7 @@ class SocialCard extends React.Component {
     const hasData = data && data.profile && data.card
     const hasReactions = data && data.reactions && data.reactions.length > 0
 
-    if (!hasData) throw new Error('Error! Social Card data missing from props.')
+    if (!hasData) throw new Error('Social Card data missing from props.')
 
     return (
       <>
