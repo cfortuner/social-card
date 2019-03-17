@@ -15,8 +15,8 @@ class SocialCard extends React.Component {
 
     return (
       <>
-        <CardHeader className='social-card-header' profile={data.profile} card={data.card}/>
-        <CardContent className='social-card-content' media={data}/>
+        <CardHeader className='social-card-header' profile={data.profile} date={data.card.date} title={data.card.title}/>
+        <CardContent className='social-card-content' card={data.card}/>
         {hasReactions &&
           <div className='social-card-reactions'>
             {_.map(data.reactions, (reaction) =>
