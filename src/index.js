@@ -2,11 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import DATA from './data.json';
-import SocialCard from './socialcard/component';
+import App from './App';
 
 ReactDOM.render(
-  <SocialCard data={DATA}/>,
+  <App/>,
   document.getElementById('root')
 );
 
