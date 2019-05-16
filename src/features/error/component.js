@@ -15,7 +15,7 @@ class PageError extends React.Component {
             </font></i>
           </div>
         </div>
-        <p><iframe src='https://giphy.com/embed/gnJgBlPgHtcnS' width='411' height='480' frameBorder='0' allowFullScreen></iframe></p>
+        <p><iframe title="funny-image" src='https://giphy.com/embed/gnJgBlPgHtcnS' width='411' height='480' frameBorder='0' allowFullScreen></iframe></p>
       </div>
     )
   }

@@ -10,7 +10,7 @@ This is a simple project to build a social card component like the one featured 
 
 ### Functional Requirements
 
-A social card is a component that should contain content and actions about a single subject. It should display the creator's account information, a title of the content, the content which can include text or media such as images or videos, and it should support comments, reshares, loves and sharing actions.
+A social card is a component that should contain content and actions about a single subject. It should display the creator's account information, a title, content which can include text or media such as images or videos, and it should support comments, reshares, loves and sharing actions.
 
 Thinking too hard about abstractions is not necessary for this component, as the social card is a specific card type. Start by implementing it naively before thinking about helpful abstractions that could be used for other card types. ([Examples of card types](https://material-ui.com/demos/cards/))
 
