@@ -24,12 +24,19 @@
   ],
   "reactions": [
     {
+      "type": "comments",
+      "value": 0
+    },
+    {
       "type": "reshares",
       "value": 1
     },
     {
       "type": "loves",
       "value": 1
+    },
+    {
+      "type": "email"
     }
   ]
 }
