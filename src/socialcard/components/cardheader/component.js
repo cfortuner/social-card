@@ -6,9 +6,12 @@ class CardHeader extends React.Component {
     const { profile, date, title} = {...this.props}
     return profile && profile.displayName && profile.handle && (
       <div className='social-card-header'>
-        <b>{profile.displayName}</b> {" "}<i>{"@" + profile.handle + " - " + date}</i>
-        <div className="title">
-          {title}
+        <img alt="header" src={window.location.origin + '/img/header-image.jpeg'}></img>
+        <div className='social-card-header-body'>
+          <b>{profile.displayName}</b> {" "}<i>{"@" + profile.handle + " - " + date}</i>
+          <div className="title">
+            {title}
+          </div>
         </div>
       </div>
 

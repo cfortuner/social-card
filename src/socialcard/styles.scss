@@ -1,5 +1,9 @@
 .social-card {
   max-width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 
 .social-card-reactions {
@@ -8,7 +12,7 @@
     padding: 15px;
   }
 
-  img {
+  input {
     width: 24px !important;
     height: 24px !important;
     padding-right: 10px;

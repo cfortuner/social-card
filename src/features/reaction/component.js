@@ -1,4 +1,5 @@
 import React from 'react';
+import { ReactionBehaviours } from './components/reactionbehaviour/component';
 
 class Reaction extends React.Component {
 
@@ -12,13 +13,17 @@ class Reaction extends React.Component {
   render() {
     return (
       <div>
-        <img src={window.location.origin + this.icons[this.props.type]} alt={"reaction"}/>
+        <input type="image" src={window.location.origin + this.icons[this.props.type]} alt={"reaction"} onClick={this.handleClick()}/>
         {this.props.value}
       </div>
     )
   }
 
-
+  handleClick = () => {
+    // TODO: Implement handle reaction in parent.
+    // and implement the reaction component
+    this.props.handleReaction(ReactionBehaviours[this.props.type])
+  }
 }
 
 export default Reaction;
